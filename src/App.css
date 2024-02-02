@@ -1,0 +1,576 @@
+*{
+
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.md-y{
+
+  margin-top: 80px;
+}
+.w-25{
+
+  width: 25%;
+}
+.w-50
+{
+  width: 50%;
+}
+.containar{
+
+  width: 70%;
+  margin: auto;
+}
+.w-33{
+
+  width: 33.33%;
+}
+.pd-y{
+
+  padding-top: 80px;
+}
+.container{
+
+  width: 80%;
+  margin: auto;
+  padding: 0 12px;
+}
+
+.d-flex {
+  display: flex;
+}
+.space-between {
+  justify-content: space-between;
+}
+.item-center {
+  align-items: center;
+}
+.text-center {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+}
+ul li{
+  list-style-type: none ;
+}
+
+/*-------------------------------------------- header start---------------------------------- */
+.top-header {
+  background-color: black;
+}
+
+.left-info li a {
+  font-family: 'lato';
+  color: white;
+  padding: 20px 0px;
+  font-size: 16px;
+  transition: .5s;
+  margin-right: 30px;
+  transition: .5s;
+}
+
+.left-info li a i {
+  color: yellow;
+  margin-right: 5px;
+}
+
+.right-info i{
+  color: white;
+  height: 49px;
+  width: 49px;
+  text-align: center;
+  line-height: 49px;
+  font-size: 18px;
+  transition: .5s;
+  padding-left: 20px;
+}
+.left-info li a:hover{
+    color: yellow;
+}
+.right-info a:hover i{
+
+    color: yellow;
+}
+
+/* ----------------------------header start -------------------------------------- */
+
+.header{
+
+  background-color: black;
+  padding: 30px 0px;
+}
+.header img{
+
+    width: 329px;
+    height: 39px;
+}
+.main-menu li a{
+
+  color: white;
+  padding-left: 40px;
+  transition: .5s;
+}
+.main-menu li a:hover{
+
+  color: yellow;
+}
+
+
+/* ----------------------------header end -------------------------------------- */
+
+
+/* ----------------------------slider start -------------------------------------- */
+.slider{
+  position: relative;
+
+}
+.slider .img img{
+
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+}
+.contant .line{
+  position: absolute;
+  width: 150px;
+  background-color: orange;
+  height: 3px;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.contant{
+
+  position: absolute;
+
+  top: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.contant .btn{
+  background-color: orange;
+  padding: 16px 40px;
+  border: 1px solid transparent;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: .5s;
+}
+.contant h1{
+  margin-top: 150px;
+  font-size: 100px;
+  letter-spacing: 10px;
+  color: white;
+}
+.contant h3
+{
+  font-size: 27px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  letter-spacing: .06em;
+  color: aliceblue;
+}
+.contant .btn:hover{
+
+  background-color: black;
+}
+
+
+/* ----------------------------slider end -------------------------------------- */
+
+/* ----------------------------------our services start---------------------------- */
+.services{
+
+  position: relative;
+}
+.services .line{
+
+  height: 3px;
+  width: 80px;
+  position: absolute;
+  background-color: orange;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.services h1{
+
+  padding-top: 30px;
+  text-align: center;
+  font-size: 25px;
+  letter-spacing: 3px;
+}
+.our-services .icon{
+
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+.our-services .icon i{
+
+  font-size: 50px;
+  padding: 20px 25px;
+  border-radius: 50%;
+  background-color: orange;
+  color: white;
+  transition: .7s;
+ 
+}
+.our-services .content{
+
+  padding-left: 30px;
+  margin-top: -20px;
+}
+.our-services .content h3{
+
+  font-size: 18px;
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+.our-services .content p{
+
+  padding-top: 20px;
+  font-size: 18px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+}
+.our-services:hover .icon i{
+
+    background-color: black;
+}
+
+.our-services{
+
+  padding-top: 80px;
+}
+
+
+/* ----------------------------------our services end---------------------------- */
+
+
+/* ----------------------------------OUR HISTORY end---------------------------- */
+.history{
+
+  padding-right: 40px;
+}
+.history .line{
+
+  position: absolute;
+  width: 70px;
+  height: 2px;
+  background-color: orange;
+}
+.history h2{
+
+  padding-top: 55px;
+  letter-spacing: 2px;
+}
+.our{
+  background-color: #F8F8F8;
+}
+.history h4{
+
+  padding-top: 50px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: normal;
+}
+.history p{
+
+  padding-top: 45px;
+  font-size: 18px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+}
+.history .btn{
+
+  background-color: orange;
+  margin-top: 60px;
+  padding: 16px 40px;
+  border: 1px solid transparent;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: .5s;
+  border-radius: 5px;
+}
+.history .btn:hover{
+
+  background-color: black;
+}
+
+
+
+/* ----------------------------------OUR HISTORY end---------------------------- */
+
+
+/* ----------------------------------image section start---------------------------- */
+.flex-wrap{
+  flex-wrap: wrap;
+}
+.image{
+  position: relative;
+  height: 400px;
+}
+.image .image1{
+  width: 100%;
+  height: 100%;
+
+}
+.image .image1 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: .4s;
+  opacity: 1;
+
+
+}
+.comm{
+  position: absolute;
+  background-color: rgba(0, 0, 0, .5);
+  z-index: 2;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  color: white;
+  text-align: center;
+  opacity: 1;
+  transition: .5s;
+} 
+.content1{
+  position: absolute;
+  background-color: rgba(0, 0, 0, .8);
+  z-index: 2;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  color: white;
+  text-align: center;
+  opacity: 0;
+  transition: .5s;
+  transform: rotatey(180deg);
+}
+.content1 p{
+  margin-top: 30px;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.comm h3{
+  margin-top: 50%;
+}
+.content1 div{
+  margin-top: 35%;
+}
+.image .image1:hover img{
+  transform: rotatey(180deg);
+  
+}
+.image .image1:hover .comm{
+  transform: rotatey(180deg);
+  opacity: 0;
+}
+.image .image1:hover .content1{
+  transform: rotatey(360deg);
+  opacity: 1;
+}
+
+.aaa{
+  margin-top: 30px;
+  text-decoration: underline;
+  transition: .5s;
+}
+.aaa:hover{
+
+  color: orange;
+}
+
+/* ----------------------------------image section end---------------------------- */
+
+
+/* ----------------------------------recent news start---------------------------- */
+
+
+.recent{
+
+  position: relative;
+}
+.recent .line{
+
+  height: 3px;
+  width: 80px;
+  position: absolute;
+  background-color: orange;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.recent h1{
+
+  padding-top: 30px;
+  text-align: center;
+  font-size: 25px;
+  letter-spacing: 3px;
+}
+
+.news1 img{
+  width: 100%;
+  transform: scale(1);
+  transition: .5s;
+}
+.news1 h2{
+
+  padding-top: 20px;
+  font-weight: lighter;
+  font-size: 18px;
+  letter-spacing: 2px;
+  transition: .5s;
+}
+.news1 h4{
+ 
+  padding-top: 10px;
+  font-weight: lighter;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+.d-flex i{
+  padding-top: 10px;
+  font-weight: lighter;
+}
+
+
+.news1 p{
+
+  padding-top: 20px;
+  font-size: 16x;
+  font-weight: lighter;
+  letter-spacing: 1px;
+
+}
+.news1 h2:hover{
+  color: orangered;
+}
+.news1{
+  margin-right: 25px;
+}
+.rec h4{
+  color: orange;
+}
+.news1:hover img{
+  transform: scale(1.1);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.235),
+  0px 0px 10px rgba(0, 0, 0, 0.235),
+  0px 0px 15px rgba(0, 0, 0, 0.235);
+  
+
+}
+
+
+
+/* ----------------------------------recent news end---------------------------- */
+
+
+/* ----------------------------------footer start---------------------------- */
+.footer{
+  background-color: #333333;
+}
+.logo2 img{
+  width: 300px;
+  height: 35px;
+}
+
+.con1 p{
+  color: #888888;
+  padding-top: 30px;
+}
+.nav{
+  padding: 0px 50px;
+}
+.nav h3{
+  color: white;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+.nav p{
+  color: orange;
+  padding-top: 30px;
+  transition: .6s;
+}
+.nav p:hover{
+  color: white;
+}
+.comments h3{
+  color: white;
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding-bottom: 30px;
+}
+.comments{
+  padding: 0px 20px;
+}
+.comments i{
+  color: #647D7D;
+}
+.comments p{
+
+    padding-bottom: 20px;
+    color: whitesmoke;
+}
+.con h3{
+
+  color: white;
+  font-size: 20px;
+}
+.con h5{
+  color: #888888;
+  font-size: 17px;
+  font-weight: lighter;
+  padding-top: 30px;
+}
+.con h6{
+ 
+  color: #888888;
+  font-size: 17px;
+  font-weight: lighter;
+  padding-top: 30px;
+}
+.con p{
+  color: #888888;
+  font-size: 17px;
+  font-weight: lighter;
+  padding-top: 30px;
+}
+.con p i{
+  color: orange;
+}
+/* ----------------------------------footer end---------------------------- */
+
+
+/* ----------------------------------copyright start---------------------------- */
+.copy{
+
+    background-color: black;
+}
+.copy p{
+  color: #888872;
+  font-size: 14px;
+  padding: 20px 0px;
+}
+
+.right i{
+  color: white;
+  padding-left: 20px;
+  font-size: 18px;
+  transition: .5s;
+}
+.right i:hover{
+  color: orange;
+}
+
+/* ----------------------------------copyrught end---------------------------- */
